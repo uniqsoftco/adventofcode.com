@@ -25,10 +25,10 @@ namespace Day2_SeenTwiceFrequency
 
                 if (seenCounter.ContainsKey(result))
                 {
+                    ++seenCounter[result];
+
                     if (seenCounter[result] > 1)
                         break;
-
-                    ++seenCounter[result];
                 }
                 else
                     seenCounter.Add(result, 1);
