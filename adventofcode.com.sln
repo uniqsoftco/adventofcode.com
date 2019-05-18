@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1-Frequency", "Day1-Frequency\Day1-Frequency.csproj", "{E22A12BB-851D-4167-9633-808126157F62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Frequency", "Day1-Frequency\1-Frequency.csproj", "{E22A12BB-851D-4167-9633-808126157F62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2-SeenTwiceFrequency", "Day2-SeenTwiceFrequency\Day2-SeenTwiceFrequency.csproj", "{6AA27E7B-2759-4885-9830-02554B73D03B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-SeenTwiceFrequency", "Day2-SeenTwiceFrequency\2-SeenTwiceFrequency.csproj", "{6AA27E7B-2759-4885-9830-02554B73D03B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day1", "Day1", "{312DED34-7CB0-44E4-819C-E79BC06F1C30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E22A12BB-851D-4167-9633-808126157F62} = {312DED34-7CB0-44E4-819C-E79BC06F1C30}
+		{6AA27E7B-2759-4885-9830-02554B73D03B} = {312DED34-7CB0-44E4-819C-E79BC06F1C30}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6100A76-BE28-41EE-AA65-5626C60C238D}
