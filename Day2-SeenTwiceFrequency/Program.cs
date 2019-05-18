@@ -17,7 +17,8 @@ namespace Day2_SeenTwiceFrequency
 
             char sign;
             int number;
-            for (int i = 0; i < input.Length; ++i)
+            int i = 0;
+            while (true)
             {
                 sign = input[i].Substring(0, 1)[0];
                 number = int.Parse(input[i].Substring(1));
@@ -37,8 +38,10 @@ namespace Day2_SeenTwiceFrequency
                 else
                     result += number;
 
-                if (i == input.Length)
+                if (i == input.Length - 1)
                     i = 0;
+                else
+                    ++i;
             }
 
             Console.WriteLine(result);
