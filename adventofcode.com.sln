@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1-Frequency", "Day1-Frequency\Day1-Frequency.csproj", "{E22A12BB-851D-4167-9633-808126157F62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2-SeenTwiceFrequency", "Day2-SeenTwiceFrequency\Day2-SeenTwiceFrequency.csproj", "{6AA27E7B-2759-4885-9830-02554B73D03B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E22A12BB-851D-4167-9633-808126157F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E22A12BB-851D-4167-9633-808126157F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E22A12BB-851D-4167-9633-808126157F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA27E7B-2759-4885-9830-02554B73D03B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA27E7B-2759-4885-9830-02554B73D03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA27E7B-2759-4885-9830-02554B73D03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA27E7B-2759-4885-9830-02554B73D03B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
