@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Frequency", "Day1\Day1-Fr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-SeenTwiceFrequency", "Day1\Day2-SeenTwiceFrequency\2-SeenTwiceFrequency.csproj", "{6AA27E7B-2759-4885-9830-02554B73D03B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-CheckSumOfAll", "1-CheckSumOfAll\1-CheckSumOfAll.csproj", "{2A8D698D-7C28-4131-AD0F-08F405AA4272}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-CheckSumOfAll", "Day2\1-CheckSumOfAll\1-CheckSumOfAll.csproj", "{2A8D698D-7C28-4131-AD0F-08F405AA4272}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
