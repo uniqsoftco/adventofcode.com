@@ -7,11 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day1", "Day1", "{312DED34-7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day2", "Day2", "{525376E7-7868-4C6A-A835-450C3D06C2DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Frequency", "Day1\Day1-Frequency\1-Frequency.csproj", "{E22A12BB-851D-4167-9633-808126157F62}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-SeenTwiceFrequency", "Day1\Day2-SeenTwiceFrequency\2-SeenTwiceFrequency.csproj", "{6AA27E7B-2759-4885-9830-02554B73D03B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-CheckSumOfAll", "Day2\1-CheckSumOfAll\1-CheckSumOfAll.csproj", "{2A8D698D-7C28-4131-AD0F-08F405AA4272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Frequency", "Day1\1-Frequency\1-Frequency.csproj", "{E22A12BB-851D-4167-9633-808126157F62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-SeenTwiceFrequency", "Day1\2-SeenTwiceFrequency\2-SeenTwiceFrequency.csproj", "{6AA27E7B-2759-4885-9830-02554B73D03B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +19,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A8D698D-7C28-4131-AD0F-08F405AA4272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A8D698D-7C28-4131-AD0F-08F405AA4272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A8D698D-7C28-4131-AD0F-08F405AA4272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A8D698D-7C28-4131-AD0F-08F405AA4272}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E22A12BB-851D-4167-9633-808126157F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E22A12BB-851D-4167-9633-808126157F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E22A12BB-851D-4167-9633-808126157F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,18 +31,14 @@ Global
 		{6AA27E7B-2759-4885-9830-02554B73D03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AA27E7B-2759-4885-9830-02554B73D03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AA27E7B-2759-4885-9830-02554B73D03B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2A8D698D-7C28-4131-AD0F-08F405AA4272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A8D698D-7C28-4131-AD0F-08F405AA4272}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A8D698D-7C28-4131-AD0F-08F405AA4272}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A8D698D-7C28-4131-AD0F-08F405AA4272}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{2A8D698D-7C28-4131-AD0F-08F405AA4272} = {525376E7-7868-4C6A-A835-450C3D06C2DC}
 		{E22A12BB-851D-4167-9633-808126157F62} = {312DED34-7CB0-44E4-819C-E79BC06F1C30}
 		{6AA27E7B-2759-4885-9830-02554B73D03B} = {312DED34-7CB0-44E4-819C-E79BC06F1C30}
-		{2A8D698D-7C28-4131-AD0F-08F405AA4272} = {525376E7-7868-4C6A-A835-450C3D06C2DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6100A76-BE28-41EE-AA65-5626C60C238D}
