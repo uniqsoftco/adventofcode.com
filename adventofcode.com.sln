@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPoint", "Day3\Point\MyPoi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-IDOfOneClaimThatDoesntOvelap", "Day3\2-IDOfOneClaimThatDoesntOvelap\2-IDOfOneClaimThatDoesntOvelap.csproj", "{792226BE-39B3-4A8D-8FEA-4BD7AA46747F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day4", "Day4", "{D1E748A6-2948-455F-A8F5-387669153CC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-MostSleepyGuardAndCommonMin", "Day4\1-MostSleepyGuardAndCommonMin\1-MostSleepyGuardAndCommonMin.csproj", "{DFAF30B6-2A92-459A-BBD1-198D354C9184}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +83,14 @@ Global
 		{792226BE-39B3-4A8D-8FEA-4BD7AA46747F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{792226BE-39B3-4A8D-8FEA-4BD7AA46747F}.Release|x64.ActiveCfg = Release|Any CPU
 		{792226BE-39B3-4A8D-8FEA-4BD7AA46747F}.Release|x64.Build.0 = Release|Any CPU
+		{DFAF30B6-2A92-459A-BBD1-198D354C9184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAF30B6-2A92-459A-BBD1-198D354C9184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAF30B6-2A92-459A-BBD1-198D354C9184}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DFAF30B6-2A92-459A-BBD1-198D354C9184}.Debug|x64.Build.0 = Debug|Any CPU
+		{DFAF30B6-2A92-459A-BBD1-198D354C9184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAF30B6-2A92-459A-BBD1-198D354C9184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFAF30B6-2A92-459A-BBD1-198D354C9184}.Release|x64.ActiveCfg = Release|Any CPU
+		{DFAF30B6-2A92-459A-BBD1-198D354C9184}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +103,7 @@ Global
 		{1DDF3DF4-E10D-409F-B0F7-D944C3DB68A9} = {A7BADC2D-2EE3-424F-A628-F69CC777A00E}
 		{A950E3CC-CA24-4B26-8A08-1F288AA9A7F9} = {A7BADC2D-2EE3-424F-A628-F69CC777A00E}
 		{792226BE-39B3-4A8D-8FEA-4BD7AA46747F} = {A7BADC2D-2EE3-424F-A628-F69CC777A00E}
+		{DFAF30B6-2A92-459A-BBD1-198D354C9184} = {D1E748A6-2948-455F-A8F5-387669153CC2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6100A76-BE28-41EE-AA65-5626C60C238D}
