@@ -82,7 +82,7 @@ namespace _1_MostSleepyGuardAndCommonMin
 
             }
             file += $"Most Sleep Minute-{mostSleepMin}: {mostSleepyGuard.Smc[mostSleepMin]}\r\n";
-            file += $"IDxMsm: {int.Parse(mSGID.Substring(1)) * mostSleepMin}\r\n";
+            file += $"Answer: {int.Parse(mSGID.Substring(1)) * mostSleepMin}\r\n";
             file += "\r\n";
             Console.WriteLine(file);
             Console.ReadLine();
