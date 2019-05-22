@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using MyGuardInfoRecord;
 using MyGuardSleepInfo;
 
-namespace _1_MostSleepyGuardAndCommonMin
+namespace _2_MostSleptMinute
 {
     class Program
     {
@@ -59,34 +59,29 @@ namespace _1_MostSleepyGuardAndCommonMin
             }
             File.WriteAllText("out.txt", file);*/
 
-            GuardSleepInfo mostSleepyGuard = guardSleepInfo.First().Value;
-            string mSgid = "";
+            GuardSleepInfo hasBiggestSleepMinute = guardSleepInfo.First().Value;
+            string guardId = "";
+            int minuteNum = 0;
+
             foreach (var guard in guardSleepInfo)
             {
-                if (guard.Value.Tsm > mostSleepyGuard.Tsm)
+                for (int m = 0; m < 60; ++m)
                 {
-                    mostSleepyGuard = guardSleepInfo[guard.Key];
-                    mSgid = guard.Key;
+                    if (hasBiggestSleepMinute.Smc[minuteNum] < guard.Value.Smc[m])
+                    {
+                        hasBiggestSleepMinute = guard.Value;
+                        guardId = guard.Key;
+                        minuteNum = m;
+                    }
                 }
             }
-            string file =
-                $"{mSgid}\r\n" +
-                $"TSM: {mostSleepyGuard.Tsm}\r\n";
-            int mostSleepMin = 0;
-            int mostSleepMinCount = 0;
-            for (int m = 0; m < 60; ++m)
-            {
-                if (mostSleepyGuard.Smc[m] > mostSleepMinCount)
-                {
-                    mostSleepMinCount = mostSleepyGuard.Smc[m];
-                    mostSleepMin = m;
-                }
 
-            }
-            file += $"Most Sleep Minute-{mostSleepMin}: {mostSleepyGuard.Smc[mostSleepMin]}\r\n";
-            file += $"Answer: {int.Parse(mSgid.Substring(1)) * mostSleepMin}\r\n";
-            file += "\r\n";
-            Console.WriteLine(file);
+            Console.WriteLine(
+                $"GuardID: {guardId}\n" +
+                $"MinuteNum: {minuteNum}\n" +
+                $"MinuteCount: {hasBiggestSleepMinute.Smc[minuteNum]}\n" +
+                $"Answer: {int.Parse(guardId.Substring(1)) * minuteNum}");
+
             Console.ReadLine();
         }
     }

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1_MostSleepyGuardAndCommonMin
+namespace MyGuardInfoRecord
 {
     public class GuardInfoRecord : IComparable<GuardInfoRecord>
     {
