@@ -12,10 +12,11 @@ namespace MyPart
         public bool IsDone = false;
         public List<Part> NextParts = new List<Part>();
         public List<Part> PreviousParts = new List<Part>();
-
-        public Part(char symbol)
+        public int SecondsTake = 0;
+        public Part(char symbol, int secondsTake = 0)
         {
             Symbol = symbol;
+            SecondsTake = secondsTake;
         }
 
         public int CompareTo(Part part)
